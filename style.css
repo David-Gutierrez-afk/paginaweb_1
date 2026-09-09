@@ -77,14 +77,20 @@ main {
     flex-wrap: wrap;
     gap: 15px;
 }
-
 /* LAYOUT 3: Float para las imágenes dentro de los artículos */
 .img-flotante {
     float: left;
     margin-right: 20px;
+     width: 100px; 
+    height: auto;
     margin-bottom: 15px;
     border-radius: 8px;
-    border: 2px solid #7e00fc;
+    border: 2px solid #4da6ff;
+}
+/* Tamaño específico solo para el Dodo de ARK */
+.img-dodo {
+    width: 100px; 
+    height: auto;
 }
 
 /* Limpiar el Float (Buena práctica obligatoria) */
