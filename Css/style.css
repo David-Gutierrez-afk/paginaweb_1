@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
 /* ---------------------1. SELECTORES OBLIGATORIOS Y RESET---------------------------- */
 /* 1. Selector Universal (*) */
 * {
@@ -12,7 +14,8 @@ h2,
 h3 {
     color: #7e00fc;
     /* Morado para títulos */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
     margin-bottom: 15px;
 }
 
@@ -68,7 +71,7 @@ body {
 }
 
 .contenedor_icono {
-    background: url(../Img/logo_transparent.png);
+    background: url(../Img/logoxd.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -179,38 +182,44 @@ main {
     }
 }
 
+/* =========================================
+   4. TARJETAS SECCIÓN SHOOTERS
+   ========================================= */
 
-/*Caja contewnedora de shooters
-.caja {
+/* Caja contenedora de shooters (Versión 1 - Comentada correctamente) */
+/*
+.caja-pequena {
     width: 180px;
     color: white;
     font-family: Arial, sans-serif;
 }
 
-.caja img {
+.caja-pequena img {
     width: 180px;
     height: 240px;
     object-fit: cover;
     border-radius: 7px;
 }
 
-.caja h2 {
+.caja-pequena h2 {
     font-size: 17px;
     margin: 8px 0 3px;
 }
 
-.caja p {
+.caja-pequena p {
     color: #aaa;
     margin: 0 0 12px;
 }
 
-.caja a {
+.caja-pequena a {
     color: white;
     font-weight: bold;
     text-decoration: underline;
 }
-/*caja 2*/
-.caja{
+*/
+
+/* Caja 2 - Versión Activa */
+.caja {
     width: 100%;
     max-width: 910px;
     text-align: center;
@@ -228,7 +237,7 @@ main {
     display: block;
 }
 
-.caja h2{
+.caja h2 {
     margin: 20px 0 10px;
     font-size: 20px;
 }
