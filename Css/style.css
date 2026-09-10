@@ -39,7 +39,9 @@ section~section {
     margin-top: 25px;
 }
 
-/* 2. CONFIGURACIÓN GENERAL Y TÉCNICAS LAYOUT */
+/* =========================================
+   2. CONFIGURACIÓN GENERAL Y TÉCNICAS LAYOUT 
+   ========================================= */
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -112,10 +114,15 @@ main {
     border: 2px solid #4da6ff;
 }
 
-/* Tamaño específico solo para el Dodo de ARK */
-.img-terror {
-    width: 150px;
+/* Imagen destacada encima de los títulos en la sección de terror */
+.img-encabezado {
+    display: block;
+    width: 100%; 
+    max-width: 600px; /* Tamaño ideal para que no ocupe toda la pantalla */
     height: auto;
+    margin: 0 auto 20px auto; /* El 'auto' a los lados la centra perfectamente */
+    border-radius: 8px;
+    border: 2px solid #7e00fc; /* Borde morado para combinar con tus títulos */
 }
 
 /* Limpiar el Float (Buena práctica obligatoria) */
