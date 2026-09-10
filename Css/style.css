@@ -83,6 +83,7 @@ footer {
     text-align: center;
     padding: 20px;
     background-color: #0f0f0f;
+    border-block: 8px solid white;
 }
 
 main {
@@ -176,4 +177,74 @@ main {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+
+/*Caja contewnedora de shooters
+.caja {
+    width: 180px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.caja img {
+    width: 180px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.caja h2 {
+    font-size: 17px;
+    margin: 8px 0 3px;
+}
+
+.caja p {
+    color: #aaa;
+    margin: 0 0 12px;
+}
+
+.caja a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/*caja 2*/
+.caja{
+    width: 100%;
+    max-width: 910px;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    background: #222;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.caja img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+.caja h2{
+    margin: 20px 0 10px;
+    font-size: 20px;
+}
+
+.caja p {
+    color: #bbb;
+    font-size: 17px;
+}
+
+.caja button {
+    margin: 15px 0 25px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    background: white;
+    color: #111;
+    font-size: 15px;
+    cursor: pointer;
 }
