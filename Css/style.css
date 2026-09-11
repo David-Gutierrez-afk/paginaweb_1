@@ -16,8 +16,10 @@ h3 {
     /* Morado para títulos */
     font-family: 'Orbitron', sans-serif;
     letter-spacing: 2px;
-    margin-bottom: 15px;
+    margin-bottom: 8%;
+    margin-top: 8%;
 }
+
 
 /* 3. Selector de Hijo Directo (>) */
 nav>ul {
@@ -186,42 +188,6 @@ main {
         transform: translateY(0);
     }
 }
-
-/* =========================================
-   4. TARJETAS SECCIÓN SHOOTERS
-   ========================================= */
-
-/* Caja contenedora de shooters (Versión 1 - Comentada correctamente) */
-/*
-.caja-pequena {
-    width: 180px;
-    color: white;
-    font-family: Arial, sans-serif;
-}
-
-.caja-pequena img {
-    width: 180px;
-    height: 240px;
-    object-fit: cover;
-    border-radius: 7px;
-}
-
-.caja-pequena h2 {
-    font-size: 17px;
-    margin: 8px 0 3px;
-}
-
-.caja-pequena p {
-    color: #aaa;
-    margin: 0 0 12px;
-}
-
-.caja-pequena a {
-    color: white;
-    font-weight: bold;
-    text-decoration: underline;
-}
-*/
 
 /* Caja 2 - Versión Activa */
 .caja {
