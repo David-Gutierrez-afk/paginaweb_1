@@ -48,14 +48,16 @@ section~section {
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #121212;
-    /* Fondo oscuro gamer */
-    color: #ffffff;
-    /* Texto en blanco */
-    /* LAYOUT 1: Grid para la estructura principal de toda la página */
-    display: grid;
-    grid-template-rows: auto auto 1fr auto;
+    margin: 0;
+    padding: 0;
+    width: 100%;
     min-height: 100vh;
+    background-image: url('../Img/Fondo.png');
+    /*tamaño y posición */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* Para que el logo y el título queden uno al lado del otro */
@@ -121,12 +123,15 @@ main {
 /* Imagen destacada encima de los títulos en la sección de terror */
 .img-encabezado {
     display: block;
-    width: 100%; 
-    max-width: 600px; /* Tamaño ideal para que no ocupe toda la pantalla */
+    width: 100%;
+    max-width: 600px;
+    /* Tamaño ideal para que no ocupe toda la pantalla */
     height: auto;
-    margin: 0 auto 20px auto; /* El 'auto' a los lados la centra perfectamente */
+    margin: 0 auto 20px auto;
+    /* El 'auto' a los lados la centra perfectamente */
     border-radius: 8px;
-    border: 2px solid #7e00fc; /* Borde morado para combinar con tus títulos */
+    border: 2px solid #7e00fc;
+    /* Borde morado para combinar con tus títulos */
 }
 
 /* Limpiar el Float (Buena práctica obligatoria) */
